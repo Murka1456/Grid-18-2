@@ -92,7 +92,12 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-
+}
+/* /*  Sett opp CSS som passe med 4 elementer */
+.grid-4{
+  display:grid ;
+  grid-template-rows:1fr 1fr ;
+  grid-template-columns:1fr 1fr ;
 }
 
 /* FOOTER */
