@@ -97,8 +97,16 @@ header {
 .grid-4{
   display:grid ;
   grid-template-rows:1fr 1fr ;
+  /* grid-template-rows:repeat(2, 1fr)  */
   grid-template-columns:1fr 1fr ;
+   /* grid-template-columns:repeat(2, 1fr)  */
 }
+.grid-6{
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 /* FOOTER */
 footer {
