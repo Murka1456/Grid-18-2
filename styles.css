@@ -106,7 +106,8 @@ header {
   grid-template-columns:repeat(3, 1fr);
   grid-template-rows: auto auto auto;
  grid-template-areas:
- "item-1 item-2 item -3"
+ "item-1 item-1 item-1"
+ "item-2 item-3 item-3"
   "item-4 item-5 item-6";
 }
 
