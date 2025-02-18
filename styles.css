@@ -83,6 +83,10 @@ header {
   padding: 20px;
   border-radius: 5px;
 }
+  .grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 /* FOOTER */
 footer {
